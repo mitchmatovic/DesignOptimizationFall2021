@@ -8,3 +8,4 @@ cons = ({'type': 'ineq', 'fun':lambda x: x[0] + 3*x[1]},
         {'type': 'ineq', 'fun':lambda x: -x[0] + 2 * x[1] + 2})
 bnds = ((-10, 10), (-10, 10), (-10,10), (-10, 10), (-10, 10))
 res = minimize(fun, (1,1,1,1,1), method='SLSQP', bounds=bnds, constraints=cons)
+print(res)
