@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+  <Project Version="9.1">
+    <base-designpoint-name valType="String">0</base-designpoint-name>
+    <timestamp-max valType="Int64">7244</timestamp-max>
+    <framework-build-version valType="String">21.2.209.0</framework-build-version>
+    <external-version-string valType="String">2021 R2</external-version-string>
+    <last-saved-utc valType="String">11/17/2021 20:30:01</last-saved-utc>
+    <managed-categories valType="String">[report, misc, progress]</managed-categories>
+    <logHistory valType="StringArray">
+      <ArrayEntry Index="0">mmmatovi@EN4149130-150:C:\Users\mmmatovi\AppData\Local\Temp\WorkbenchLogs\CoreEvents15440.log</ArrayEntry>
+      <ArrayEntry Index="1">mmmatovi@EN4149130-150:C:\Users\mmmatovi\AppData\Local\Temp\WorkbenchLogs\CoreEvents1192.log</ArrayEntry>
+      <ArrayEntry Index="2">mmmatovi@EN4149130-150:C:\Users\mmmatovi\AppData\Local\Temp\WorkbenchLogs\CoreEvents13496.log</ArrayEntry>
+    </logHistory>
+    <expression-scope-container valType="String">Parameters</expression-scope-container>
+    <project-type valType="String">WB2</project-type>
+    <ReferenceCache>
+      <ProjectReferenceList>
+        <ReferenceList valType="String">{
+"0355a25d-a319-4d43-859a-714efd5b1449": "/FileContainer/FileReference:F2",
+"14443695-db9d-47c4-8cf4-09ea9443af7b": "/FileContainer/FileReference:F8",
+"e847824f-b82a-4c6a-a3e6-24b27488110e": "/FileContainer/FileReference:F4",
+"dd8b4764-dc6b-49a7-a060-2d25b5023160": "/FileContainer/FileReference:F7",
+"3742c2f8-cc3e-47e0-9004-e4f066ddfc9d": "/FileContainer/FileReference:F3",
+"be11bb21-baea-4064-957f-e7ac155252cf": "/Parameters/Parameter:P4",
+"71bef6c5-87c3-4c23-bdbb-53bf82bf9c3d": "/FileTypesContainer/FileType:GeometryFileType",
+"b1fda2f7-fda7-4be9-806f-35938304197d": "/FileTypesContainer/FileType:EngineeringData",
+"ee167105-b8fe-45a3-a64a-2043a85f7c9b": "/FileTypesContainer/FileType:project",
+"3d04b843-8256-4be5-9d73-57c3fab34715": "/FileTypesContainer/FileType:ACTDatabase",
+"d2f7a6ca-5333-45f8-83e1-619138146fba": "/FileTypesContainer/FileType:MechanicalFileType",
+"ae3a08ba-2113-471e-b6d0-4b4a14065b30": "/Parameters/Parameter:P1",
+"fbf135c3-94eb-42ea-8a2d-3391cf07edef": "/Parameters/Parameter:P2",
+"b7d03c3a-9b3f-497c-bdbd-57a7194260d8": "/Parameters/Parameter:P3",
+"0d1620fc-1cfd-4c21-ba74-b4b77ae9bf9f": "/Schematic/Component:Engineering Data",
+"db763117-3c76-463e-a0cc-190005d8c9ca": "/Schematic/Component:Geometry",
+"0bc474b1-976b-4e0b-8fac-951390bae385": "/Schematic/Component:Model",
+"0ef5e381-9855-476d-b6cf-a9b9883f3e9a": "/Schematic/Component:Setup",
+"80db3f5e-acac-47ef-97f4-c6bfffeeaa9d": "/Schematic/Component:Solution",
+"a5fbe5a5-93ef-4496-bf86-642d01611b71": "/Schematic/Component:Results",
+"3c31adb7-7f37-4c93-b18e-3f088b2eda3c": "/Schematic/Template:Static Structural (ANSYS)",
+"b413cba7-fb23-4dd3-ba7b-fa5b9c94dbce": "/Schematic/Template:Fluid Flow (CFX)",
+"cd2a05a1-b5ac-445f-adef-158a55e6f73e": "/Schematic/Template:Fluid Flow",
+"1426e9df-ea6b-422d-9745-a2033f75b923": "/Schematic/Template:Steady-State Thermal (ANSYS)",
+"bf24a3d6-dd53-4989-ab8a-04dd16bd899a": "/Schematic/Template:Modal (ANSYS)",
+"9d10750c-9e3a-46ca-87a6-be16f4895556": "/Schematic/Template:Random Vibration (ANSYS)",
+"870ac12f-3ca2-4bb7-989a-d71ef03933c3": "/Schematic/Template:Response Spectrum (ANSYS)",
+"ad56f15a-8a50-4218-83c9-75bd14501ddc": "/Schematic/ComponentTemplate:EngDataCellTemplate",
+"7667508b-7b39-4ec6-a72f-3640035b9786": "/Schematic/System:SYS",
+"57e5a736-43a1-48e4-9a93-4edb49ab42fc": "/Schematic/ComponentTemplate:GeometryCellTemplate",
+"6ebff789-99b6-458a-ae20-3a8ef0a6503f": "/Schematic/ComponentTemplate:SimulationModelCellTemplate",
+"1653b068-3186-4768-9105-1dfdb1c2c6da": "/Schematic/ComponentTemplate:SimulationSetupCellTemplate_StructuralStaticANSYS",
+"e76399fb-7ed4-407b-a409-410d6e6575b0": "/Schematic/ComponentTemplate:SimulationSolutionCellTemplate_StructuralStaticANSYS",
+"cb3c9c16-b961-457c-ad94-eb382883f9c1": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_StructuralStaticANSYS",
+"555e61b3-530b-4be2-813e-949ba5924167": "/FileContainer/FileReference:F10",
+"a5de82ab-fd34-46df-86b4-3f2cb23ca0f1": "/FileContainer/FileReference:F9",
+"fd3f8385-384c-4f0c-88b9-c304cd144f29": "/Parameters/Parameter:P5",
+"8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e": "/Schematic/System:SYS 1",
+"d97cd8b6-c22e-44a7-b105-49d7dce4754b": "/Schematic/Component:Engineering Data 1",
+"3458d738-f3b6-4db1-a128-88e5f9eaed40": "/Schematic/Component:Geometry 1",
+"7e3d9025-bd06-4f88-8c42-36956fdeee30": "/Schematic/Component:Model 1",
+"65352f88-c463-48c5-8ab9-15e2257d0f78": "/Schematic/Component:Setup 1",
+"bb369b93-05f9-4b45-a8ed-dfd9bff03a7f": "/Schematic/Component:Solution 1",
+"50646224-8ed7-4925-9f92-9be9d8bb290b": "/Schematic/Component:Results 1",
+"a1ecfe06-02aa-420b-af90-6e32f6c1cc74": "/Schematic/ComponentTemplate:SimulationSetupCellTemplate_StructuralModalANSYS",
+"91d30b62-b741-4000-92bf-a544d264b688": "/Schematic/ComponentTemplate:SimulationSolutionCellTemplate_StructuralModalANSYS",
+"f07bac59-8d09-471e-841f-8d4449bf1b65": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_StructuralModalANSYS",
+"b373f506-bd45-447e-954b-c495767cff7b": "/FileContainer/FileReference:F12",
+"b79169a4-e795-44af-b4c2-f409c0eaee50": "/FileContainer/FileReference:F11",
+"3d81f7d3-3f33-4067-8bc5-e13675a84243": "/Parameters/Parameter:P6",
+"1cade4c6-b924-4cf2-846b-36f05d3bb860": "/Schematic/System:SYS 2",
+"12959b17-8446-4d67-8d91-d8a4ad8bfeb9": "/Schematic/Component:Engineering Data 2",
+"d96a77d5-c686-4a69-9c9b-6e70e2defc99": "/Schematic/Component:Geometry 2",
+"1010c4fe-3fe8-4e35-b9c1-0613aaa3b7c0": "/Schematic/Component:Model 2",
+"28f83084-5630-43f9-820d-ff00d5c7742f": "/Schematic/Component:Setup 2",
+"34df7c81-9ab0-4ea7-974b-fbc9f34c704d": "/Schematic/Component:Solution 2",
+"b36259ad-6db6-472e-944e-db077aa7c7c0": "/Schematic/Component:Results 2",
+"4dd08dd3-3a51-405c-8304-232f414953bd": "/Schematic/Template:Transient Thermal (ANSYS)",
+"419bace5-7486-422e-906f-1a0b4a05812b": "/Schematic/ComponentTemplate:SimulationSetupCellTemplate_ThermalTransientANSYS",
+"0a1bbc3f-6cae-45b3-8634-973291213454": "/Schematic/ComponentTemplate:SimulationSolutionCellTemplate_ThermalTransientANSYS",
+"1075fd0c-7e41-427f-9e6b-65bae8c56723": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_ThermalTransientANSYS"
+}</ReferenceList>
+      </ProjectReferenceList>
+      <DesignPointReferenceListCollection>
+        <DesignPointReferenceList Name="0">
+          <ReferenceList valType="String">{
+"059d5689-0a26-473c-8b1d-ff54f5e984fa": "/Engineering Data/ResourceTransferData:TransferData_material",
+"9cf1372a-d959-4cd1-b558-01d374017a8c": "/Engineering Data/Material:Structural Steel",
+"8204a70e-196c-42ba-ba8c-7066204fa70a": "/Engineering Data/MaterialProperty:Appearance",
+"fa119811-e568-4006-9e31-6346808e2057": "/Engineering Data/MaterialPropertyData:Color",
+"1aa61075-bcaa-475b-a298-71e796587434": "/Engineering Data/MaterialVariable:Red",
+"f9525cc3-ea21-4e14-b305-be3a107b0fa2": "/Engineering Data/MaterialVariable:Green",
+"f49884f6-7aa6-409b-a2c6-6d562b1e668c": "/Engineering Data/MaterialVariable:Blue",
+"4f3d6447-7b62-41d0-8153-f5ec1e431bf4": "/Engineering Data/MaterialProperty:Compressive Ultimate Strength",
+"87fb4915-53cc-43a2-91e1-71db12e26d9c": "/Engineering Data/MaterialPropertyData:Compressive Ultimate Strength",
+"5763cebe-f570-441c-92e6-e8ce9c2e3265": "/Engineering Data/MaterialVariable:Compressive Ultimate Strength",
+"da4a37ef-bc8a-4e41-a4e0-8b48966be803": "/Engineering Data/MaterialProperty:Compressive Yield Strength",
+"2abf3667-9795-467f-a368-89064feeaaac": "/Engineering Data/MaterialPropertyData:Compressive Yield Strength",
+"3a2cb1d4-1c46-466e-8927-f7f80c8391c5": "/Engineering Data/MaterialVariable:Compressive Yield Strength",
+"4a4c451d-f00b-48fe-9b0d-5e989f68c6eb": "/Engineering Data/MaterialProperty:Density",
+"14ae13a9-d2b3-439e-af6e-1271fd89307f": "/Engineering Data/MaterialPropertyData:Density",
+"9a75d7c8-0afa-4783-a51b-d3b2fbfb2fe4": "/Engineering Data/MaterialVariable:Density",
+"9986c9fc-e38c-4bab-84de-13d8f6cb53b2": "/Engineering Data/MaterialVariable:Temperature",
+"ebe00a96-b77c-4105-b13e-8a6096da2c35": "/Engineering Data/MaterialVariable:Interpolation Options",
+"4646ee91-13a8-44cb-a8da-03c62a9c7434": "/Engineering Data/MaterialProperty:Tensile Yield Strength",
+"c3310a32-72f3-48bb-8f93-434016e8f4e6": "/Engineering Data/MaterialPropertyData:Tensile Yield Strength",
+"c5306746-784d-464a-9861-138c88686c38": "/Engineering Data/MaterialVariable:Tensile Yield Strength",
+"508033ee-554c-42f0-81ba-d1bcde686094": "/Engineering Data/MaterialProperty:Tensile Ultimate Strength",
+"6ed8bea6-af82-41ae-827f-dfceb3628f6c": "/Engineering Data/MaterialPropertyData:Tensile Ultimate Strength",
+"bea8dd05-19d0-4b64-a559-e9f50bdd2d11": "/Engineering Data/MaterialVariable:Tensile Ultimate Strength",
+"da6ca672-f848-4877-adf6-b243a15b1699": "/Engineering Data/MaterialProperty:Coefficient of Thermal Expansion",
+"944538a5-70a5-4f1b-9bcb-e6bfe05f2f35": "/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion",
+"8415374f-95ad-4b0d-ac83-17672cc19a9b": "/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion",
+"e54a6a72-ffc1-4072-a570-fd343220907f": "/Engineering Data/MaterialVariable:Temperature 1",
+"565f9736-4be0-4936-9aa1-4be96ab763bf": "/Engineering Data/MaterialVariable:Interpolation Options 1",
+"66fe9001-0c72-40d1-8271-243283d9dd06": "/Engineering Data/MaterialPropertyData:Zero-Thermal-Strain Reference Temperature",
+"a26909d7-667c-4196-b8ea-38f40374ba49": "/Engineering Data/MaterialVariable:Zero-Thermal-Strain Reference Temperature",
+"dcad2de0-7da2-4637-93bc-7da17592f847": "/Engineering Data/MaterialProperty:Specific Heat",
+"0acd49e9-d428-4162-a071-439095a56981": "/Engineering Data/MaterialPropertyData:Specific Heat",
+"3079e6cd-5a60-4048-98b8-e6d595d10080": "/Engineering Data/MaterialVariable:Specific Heat",
+"fa55c827-09df-4414-82de-948c0759ed91": "/Engineering Data/MaterialVariable:Temperature 2",
+"c4a2059e-12ab-446f-9681-0db7f5aa5e6e": "/Engineering Data/MaterialVariable:Interpolation Options 2",
+"9e3be723-27d6-403a-839e-d570edb51211": "/Engineering Data/MaterialProperty:Thermal Conductivity",
+"b8ec1bde-5f6e-4e4d-87b3-74dc7ce7e37f": "/Engineering Data/MaterialPropertyData:Thermal Conductivity",
+"aa5dfaec-27e7-4d8d-b30b-d9065ae776cd": "/Engineering Data/MaterialVariable:Thermal Conductivity",
+"b9be041d-4a76-486c-8ea5-75f5a4ed8052": "/Engineering Data/MaterialVariable:Temperature 3",
+"7105e997-2fb2-40bd-8183-e99770265045": "/Engineering Data/MaterialVariable:Interpolation Options 3",
+"16074245-0a0f-4152-aaf4-c4019c210618": "/Engineering Data/MaterialProperty:S-N Curve",
+"dba156e9-4e04-4906-98a5-8491fc4195c3": "/Engineering Data/MaterialPropertyData:S-N Curve",
+"69b47d07-d5e4-49b7-9b05-4c4041dbe4ca": "/Engineering Data/MaterialVariable:Alternating Stress",
+"60bdf72f-42a8-4bf0-a9c4-17fb9ed8884b": "/Engineering Data/MaterialVariable:Cycles",
+"611bd2a4-cb7d-43d3-91da-b5979a0290c8": "/Engineering Data/MaterialVariable:Mean Stress",
+"2d433f6c-a919-4e48-a09c-f776515ddedb": "/Engineering Data/MaterialProperty:Strain-Life Parameters",
+"f10da67e-f797-41a9-b091-7a546ab012f2": "/Engineering Data/MaterialPropertyData:Strain-Life Parameters",
+"8521475f-c7da-42a1-9569-984050d170d6": "/Engineering Data/MaterialVariable:Strength Coefficient",
+"2abc4f7b-1a29-4761-8dd6-71992bd7342d": "/Engineering Data/MaterialVariable:Strength Exponent",
+"3d76dcac-4bc4-4abd-b4af-314698056b8f": "/Engineering Data/MaterialVariable:Ductility Coefficient",
+"c57194db-5ebd-4be0-900e-20e7d4771053": "/Engineering Data/MaterialVariable:Ductility Exponent",
+"04bc3597-360e-4261-abcb-05aff5589bbe": "/Engineering Data/MaterialVariable:Cyclic Strength Coefficient",
+"c0d08104-86cd-4edd-b3b6-cb211823a48c": "/Engineering Data/MaterialVariable:Cyclic Strain Hardening Exponent",
+"a2d3f9d0-105b-4c5f-8835-230641bb7904": "/Engineering Data/MaterialProperty:Resistivity",
+"d32d3881-68ed-43a3-b077-112a008729e5": "/Engineering Data/MaterialPropertyData:Resistivity",
+"b9202d00-7a3e-4f79-a7a5-895a8e08fa3a": "/Engineering Data/MaterialVariable:Resistivity",
+"251fcb89-58ec-40a6-b6da-9bc84f1b9334": "/Engineering Data/MaterialVariable:Temperature 4",
+"e72168b3-1cf5-47a1-88e8-d103491dc666": "/Engineering Data/MaterialProperty:Elasticity",
+"201c12d2-dc43-4c3a-8b24-dadce557d420": "/Engineering Data/MaterialPropertyData:Elasticity",
+"e4edb1f6-52c3-4f9e-9a04-85f831458e92": "/Engineering Data/MaterialVariable:Young's Modulus",
+"f56caf25-62dc-4420-b957-938ae8837021": "/Engineering Data/MaterialVariable:Poisson's Ratio",
+"33e2ed4f-dfb8-44df-a020-49fe21812aff": "/Engineering Data/MaterialVariable:Bulk Modulus",
+"9890133c-98f7-43a9-b553-3584f7f6d290": "/Engineering Data/MaterialVariable:Shear Modulus",
+"30a7b465-c509-4380-b323-ca61eef60f4b": "/Engineering Data/MaterialVariable:Temperature 5",
+"2a7a6b4d-53a7-4390-b20b-7b04855035ba": "/Engineering Data/MaterialVariable:Interpolation Options 4",
+"1be546ff-3369-4d5b-883e-0d66987d8001": "/Engineering Data/MaterialProperty:Relative Permeability",
+"dca19cc8-9c45-41e9-af38-7b2b4d66ad0b": "/Engineering Data/MaterialPropertyData:Relative Permeability",
+"51505d8e-fcbc-41ec-a67e-ffb2e295bf29": "/Engineering Data/MaterialVariable:Relative Permeability",
+"c0920675-dc20-40ee-a7d4-639fc1d639a5": "/Engineering Data/MaterialProperty:Material Unique Id",
+"82c30e76-1b00-4266-a83c-d94e5dad752b": "/Engineering Data/MaterialPropertyData:Material Unique Id",
+"3a6bee22-541a-4439-80c0-90385954f67d": "/Engineering Data/Material:Gray Cast Iron",
+"1831937a-5eac-4fb5-a34a-d8a7f9735f33": "/Engineering Data/MaterialProperty:Appearance 1",
+"247ba6f8-be8a-44c3-984b-dc1bce7ccad4": "/Engineering Data/MaterialPropertyData:Color 1",
+"4ea5103c-11e7-4dd4-bd13-3f0f1dcaf6ce": "/Engineering Data/MaterialVariable:Red 1",
+"31b4c3b7-4f00-4ecc-9557-dfcab3353474": "/Engineering Data/MaterialVariable:Green 1",
+"32f58b04-c2ec-48e9-8a5a-6e27657cb48b": "/Engineering Data/MaterialVariable:Blue 1",
+"95506557-a4d3-431b-ad1e-af7ce58dce72": "/Engineering Data/MaterialProperty:Compressive Ultimate Strength 1",
+"0a4716a7-e84b-4d8a-8d40-37537cb66ae8": "/Engineering Data/MaterialPropertyData:Compressive Ultimate Strength 1",
+"000d6fd8-5e25-4bf5-8be5-a9cab3537f94": "/Engineering Data/MaterialVariable:Compressive Ultimate Strength 1",
+"0ec236ae-aa60-4464-9b29-374a200fd886": "/Engineering Data/MaterialProperty:Compressive Yield Strength 1",
+"0a48cd26-3fa3-43d6-b7bd-cb260f812168": "/Engineering Data/MaterialPropertyData:Compressive Yield Strength 1",
+"6107feed-162d-41d1-a8a0-6e9eb9f2694b": "/Engineering Data/MaterialVariable:Compressive Yield Strength 1",
+"3e690dc8-7fc9-4707-ba02-5e4108976044": "/Engineering Data/MaterialProperty:Density 1",
+"72b6a418-bb96-421b-ae3f-f115fcf78e59": "/Engineering Data/MaterialPropertyData:Density 1",
+"4669f6db-e460-478b-ba09-008090fc39e7": "/Engineering Data/MaterialVariable:Density 1",
+"f0dd9998-a15f-4baf-be2c-9c3c884736f9": "/Engineering Data/MaterialVariable:Temperature 6",
+"958bfa78-71e9-4ad0-97d2-2487c0613002": "/Engineering Data/MaterialVariable:Interpolation Options 5",
+"4a22f394-3576-4bb1-af9f-f38702a7727b": "/Engineering Data/MaterialProperty:Tensile Yield Strength 1",
+"6933bd09-685a-4644-bd05-47ad90fae2d0": "/Engineering Data/MaterialPropertyData:Tensile Yield Strength 1",
+"24096865-9096-4dc9-b358-f754b1b5f8cf": "/Engineering Data/MaterialVariable:Tensile Yield Strength 1",
+"69b0e8b9-51eb-4505-bf2d-8ac317f37834": "/Engineering Data/MaterialProperty:Tensile Ultimate Strength 1",
+"dd1173d3-1899-4939-9fe8-57932511b9db": "/Engineering Data/MaterialPropertyData:Tensile Ultimate Strength 1",
+"00fec04d-475c-4feb-baf7-7639edaccdac": "/Engineering Data/MaterialVariable:Tensile Ultimate Strength 1",
+"135ee015-f08e-4f26-b3a0-c90f27e813d5": "/Engineering Data/MaterialProperty:Coefficient of Thermal Expansion 1",
+"31eee6a7-aa19-4379-88fd-ccdfa0b03ead": "/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion 1",
+"023cf2b7-19e8-4029-bcc3-42900f84f265": "/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion 1",
+"98dc6c1d-66b3-4d60-b06d-4b1625c3a38c": "/Engineering Data/MaterialVariable:Temperature 7",
+"cdd1f361-33c2-4b4b-ba36-aeeb26f09839": "/Engineering Data/MaterialVariable:Interpolation Options 6",
+"d70abe69-7a8c-4036-b156-705acba8c3c8": "/Engineering Data/MaterialPropertyData:Zero-Thermal-Strain Reference Temperature 1",
+"b22a3520-5f92-4c33-9a73-456128a90d68": "/Engineering Data/MaterialVariable:Zero-Thermal-Strain Reference Temperature 1",
+"19ed1bfc-7739-42d0-a3a4-a846ac840132": "/Engineering Data/MaterialProperty:Specific Heat 1",
+"e340d5fe-c133-404d-be9c-4aa6c4031544": "/Engineering Data/MaterialPropertyData:Specific Heat 1",
+"acbf4ee1-f2b5-4f2b-b095-13b062f445d5": "/Engineering Data/MaterialVariable:Specific Heat 1",
+"6a8296f9-0a4b-4a3d-9300-2719b57185e5": "/Engineering Data/MaterialVariable:Temperature 8",
+"f4345e4f-4ab2-4c52-9056-442a7867a5ec": "/Engineering Data/MaterialVariable:Interpolation Options 7",
+"6a118928-ee4e-468c-bb57-60431041170f": "/Engineering Data/MaterialProperty:Thermal Conductivity 1",
+"e473a4fe-9c60-4328-a53f-f7aeac5f0267": "/Engineering Data/MaterialPropertyData:Thermal Conductivity 1",
+"f0c1a4a9-e2ab-4fc8-b2f7-4c465e7d1815": "/Engineering Data/MaterialVariable:Thermal Conductivity 1",
+"0309a0dc-8ba7-4d69-994a-cfb9ba7a2049": "/Engineering Data/MaterialVariable:Temperature 9",
+"99a1f2a9-cdf3-49f2-a545-4cb0c445614e": "/Engineering Data/MaterialVariable:Interpolation Options 8",
+"fade3c8d-6040-4f8a-b8d0-cb163d92c9dd": "/Engineering Data/MaterialProperty:Resistivity 1",
+"92c83ebe-ebaf-4e97-b3bc-ac5329442402": "/Engineering Data/MaterialPropertyData:Resistivity 1",
+"5288e282-9cc3-4bc4-8c8b-282ddeea9a0a": "/Engineering Data/MaterialVariable:Resistivity 1",
+"4b7b5b01-6b3c-4f87-9aba-150d11e29aab": "/Engineering Data/MaterialVariable:Temperature 10",
+"dec6af7e-6c6e-4e37-bd00-30b10cc616a0": "/Engineering Data/MaterialProperty:Elasticity 1",
+"635c4d41-8a4f-4581-9245-4508ce174c39": "/Engineering Data/MaterialPropertyData:Elasticity 1",
+"c341fc87-9695-4071-aa13-cdd6a67c0967": "/Engineering Data/MaterialVariable:Young's Modulus 1",
+"5fa8a6ab-c517-47c7-b9ca-029e3cdb91ab": "/Engineering Data/MaterialVariable:Poisson's Ratio 1",
+"4495369b-a692-4ee2-9409-52b900714a15": "/Engineering Data/MaterialVariable:Bulk Modulus 1",
+"fcfaab7b-34cc-4541-8778-a8ee69f882b7": "/Engineering Data/MaterialVariable:Shear Modulus 1",
+"811bbd5a-cc8a-4eab-997c-04a4fa97c759": "/Engineering Data/MaterialVariable:Temperature 11",
+"61bbca9f-0c67-4fdd-b19c-14a0869680ef": "/Engineering Data/MaterialVariable:Interpolation Options 9",
+"19e581d6-8ecf-4e0a-bcf5-e64cf76837db": "/Engineering Data/MaterialProperty:Relative Permeability 1",
+"4a3b5c88-c3a3-4e62-9e0f-571375c79fa5": "/Engineering Data/MaterialPropertyData:Relative Permeability 1",
+"7488b144-e9de-4f3a-ab45-3d7e803d33b1": "/Engineering Data/MaterialVariable:Relative Permeability 1",
+"98865bc2-45f0-4ad1-917c-5471d8fa5b43": "/Engineering Data/MaterialProperty:Material Unique Id 1",
+"f3e4332b-a0fd-45cc-9f5a-bcb1393a3233": "/Engineering Data/MaterialPropertyData:Material Unique Id 1",
+"0bf43a73-ecdc-446f-a926-dc1dc821f9c6": "/Geometry/Geometry:GeometryDataObject",
+"9875e3c5-742b-478f-97fa-ee2cfc8162d6": "/Model/MechanicalModel:MechanicalModel",
+"38b9c8e0-1b07-4089-88ae-2badfa8e22e7": "/Setup/SimulationSetup:SetupObject for Structural|Static|ANSYS",
+"bcc94db6-f401-4051-89e8-1a5f32100c37": "/Solution/SimulationSolution:SolutionObject for Structural|Static|ANSYS",
+"7033a539-0ee0-4297-89c9-e931fe2a2fe1": "/Results/SimulationResults:ResultsObject for Structural|Static|ANSYS",
+"19dcf02b-1906-483d-836f-43ee9fd871c3": "/Model/SimulationEngineeringData:SimulationEngineeringDataObject",
+"c3f5d8e8-a808-45b8-84f1-31ed8a6a2601": "/Model/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
+"4b095460-acdc-438d-b34d-f818482e2393": "/Model/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
+"59b70edb-3acf-41ef-aa37-92a1d32ce161": "/Model/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
+"b038248b-9a79-4e7d-81a6-388ffa51d562": "/Engineering Data/EngineeringData:Engineering Data",
+"f72bba95-6966-433b-b2a1-913cb9954826": "/Results/SimulationResultsStlZip:SimulationResultsStlZip",
+"35fc6cc2-22e7-4cc9-a643-e9661b262709": "/Results/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
+"2aa95691-bff9-4fb0-9704-9288a625cdf3": "/Results/ExternalModelOutput:ExternalModelOutput",
+"9c3da860-3666-4837-855c-9f67b26670fe": "/Geometry/ParameterAdapter1:DesignModelerParameter",
+"0b46d376-450c-46d7-a32c-2ace6d48dbab": "/Geometry/ParameterAdapter2:DesignModelerParameter",
+"ebbd6005-814d-4e12-819d-a66b34af79b6": "/Geometry/ParameterAdapter3:DesignModelerParameter",
+"95acc1c5-618c-42c8-a184-caaa289619ba": "/Results/ParameterAdapter1:b2c7d049-8f87-45ad-9b20-0de23bc13119",
+"e19586e5-7610-4973-a980-9946290ec76c": "/Model 1/MechanicalModel:MechanicalModel",
+"b35e11e2-a6e6-439b-b19d-2c28bacc6d09": "/Setup 1/SimulationSetup:SetupObject for Structural|Modal|ANSYS",
+"1114419d-e9f1-447c-b374-8b62e043bd3e": "/Solution 1/SimulationSolution:SolutionObject for Structural|Modal|ANSYS",
+"73d34135-bb90-4cd5-bedf-c71eab06ac56": "/Results 1/SimulationResults:ResultsObject for Structural|Modal|ANSYS",
+"26d84459-f57a-4511-b880-1b7c44ddc97d": "/Model 1/SimulationEngineeringData:SimulationEngineeringDataObject",
+"c9671601-1d1b-4fe9-8c51-707afb3cd187": "/Model 1/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
+"eb531b44-7446-4447-8528-65cb63099ad1": "/Model 1/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
+"b0322b37-d149-4ec7-beb7-65fef3c8804f": "/Model 1/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
+"0c8a75d4-2861-431f-b328-0ed148bb2906": "/Results 1/SimulationResultsStlZip:SimulationResultsStlZip",
+"7dcbbcaa-5690-4eda-836f-0d90578b5219": "/Results 1/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
+"339cbec9-8e2f-4e2d-a33f-7cdb6406a55a": "/Results 1/ExternalModelOutput:ExternalModelOutput",
+"5e0261fe-ce9e-400d-86d1-c101e2154e18": "/Results 1/ParameterAdapter1:56e0e27b-af36-4a60-9f7d-7a60c654d013",
+"473bf472-7c2e-400c-b196-b344f4ae41aa": "/Model 2/MechanicalModel:MechanicalModel",
+"0233241e-2d7d-40ea-af07-0a650ef8d695": "/Setup 2/SimulationSetup:SetupObject for Thermal|Transient|ANSYS",
+"1fb387b0-9d21-4c78-9a1b-64f93e2c03ee": "/Solution 2/SimulationSolution:SolutionObject for Thermal|Transient|ANSYS",
+"618043db-3151-420d-a0b4-f1b6d3ecdf0b": "/Results 2/SimulationResults:ResultsObject for Thermal|Transient|ANSYS",
+"c07eb43c-4418-49b1-85f6-30e4175cd67d": "/Model 2/SimulationEngineeringData:SimulationEngineeringDataObject",
+"ac59d3b1-3142-4e31-88ea-599713695711": "/Model 2/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
+"26ef0e5f-76aa-402a-a8a0-565ede1a1c7b": "/Model 2/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
+"247c98cb-1cd9-4450-a86d-0874edcf363d": "/Model 2/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
+"873aebb6-31e2-4f5f-bad6-7000694d82ec": "/Results 2/SimulationResultsStlZip:SimulationResultsStlZip",
+"2e69eb17-642a-4799-a258-e9a600d77268": "/Results 2/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
+"e6138945-a615-44f6-8d4c-3086434f9b6d": "/Results 2/ParameterAdapter1:9af3f4cf-5a5e-43e4-9503-096a109fb358"
+}</ReferenceList>
+        </DesignPointReferenceList>
+      </DesignPointReferenceListCollection>
+    </ReferenceCache>
+  </Project>
+  <Addins>
+    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.ProjectSchematic.ProjectSchematicAddin, Ansys.ProjectReporting.Addin, Ansys.Graphics.GraphicsAddin, Ansys.Units.Commands.Addin, Ansys.ACT.WorkBench.Addin, Ansys.Dpdb.DpdbAddin]</addin-list>
+    <Addin Name="Ansys.ParameterManager.ParameterManagerAddin" Version="7.3" />
+    <Addin Name="Ansys.ProjectSchematic.ProjectSchematicAddin" Version="12.4" />
+    <Addin Name="Ansys.ProjectReporting.Addin" Version="6.0" />
+    <Addin Name="Ansys.Graphics.GraphicsAddin" Version="1.1" />
+    <Addin Name="Ansys.Units.Commands.Addin" Version="7.1" />
+    <Addin Name="Ansys.ACT.WorkBench.Addin" Version="4.2">
+      <ExtensionsLoaded valType="StringArray">
+        <ArrayEntry Index="0">1;LSDYNA;5f463412-bd3e-484b-87e7-cbc0a665e474;LSDYNA;wbex;2021;1</ArrayEntry>
+      </ExtensionsLoaded>
+    </Addin>
+    <Addin Name="Ansys.Dpdb.DpdbAddin" Version="4.1">
+      <is-optional-on-resume valType="Boolean">true</is-optional-on-resume>
+    </Addin>
+  </Addins>
+  <Containers>
+    <container-map valType="String">{"FileContainer": Project:FileContainer, "Messages": Project:Messages, "Parameters": Ansys.ParameterManager.ParameterManagerAddin:parameters, "Schematic": Ansys.ProjectSchematic.ProjectSchematicAddin:Default, "ReportDataContainer": Ansys.ProjectReporting.Addin:ReportDataContainer, "Graphics": Ansys.Graphics.GraphicsAddin:graphics, "Units": Ansys.Units.Commands.Addin:Units, "DpdbContainer": Ansys.Dpdb.DpdbAddin:DpdbContainer}</container-map>
+    <static-container-ids valType="String">{"FileContainer": FileManager, "Parameters": Parameters, "Schematic": Schematic, "ReportDataContainer": ReportDataContainer, "Graphics": Graphics, "Units": Units, "DpdbContainer": DpdbContainer}</static-container-ids>
+    <Container Name="FileContainer" Version="1.0">
+      <container-type valType="String">Project:FileContainer</container-type>
+      <static-id valType="String">FileManager</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7241, "Input": 1484, "Output": 1484}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/FileContainer/FileReference:F4" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F4</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.agdb", "FileType": $$71bef6c5-87c3-4c23-bdbb-53bf82bf9c3d, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\DM\SYS.agdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F2" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F2</object-name>
+        <member-data valType="String">{"DisplayText": "material.engd", "FileType": $$b1fda2f7-fda7-4be9-806f-35938304197d, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\ENGD\material.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F3" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F3</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.engd", "FileType": $$b1fda2f7-fda7-4be9-806f-35938304197d, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F5" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F5</object-name>
+        <member-data valType="String">{"DisplayText": "proj2c.wbpj", "FileType": $$ee167105-b8fe-45a3-a64a-2043a85f7c9b, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": "$(ProjectName).wbpj", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F6" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F6</object-name>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$3d04b843-8256-4be5-9d73-57c3fab34715, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 8}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F7" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F7</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.mechdb", "FileType": $$d2f7a6ca-5333-45f8-83e1-619138146fba, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.mechdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F8" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F8</object-name>
+        <member-data valType="String">{"DisplayText": "EngineeringData.xml", "FileType": $$b1fda2f7-fda7-4be9-806f-35938304197d, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\ENGD\EngineeringData.xml", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F9" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F9</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-1.engd", "FileType": $$b1fda2f7-fda7-4be9-806f-35938304197d, "DependentFiles": [], "ContainerAssociations": ["Model 1"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-1.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F10" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F10</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-1.mechdb", "FileType": $$d2f7a6ca-5333-45f8-83e1-619138146fba, "DependentFiles": [], "ContainerAssociations": ["Model 1"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-1.mechdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F11" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F11</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-2.engd", "FileType": $$b1fda2f7-fda7-4be9-806f-35938304197d, "DependentFiles": [], "ContainerAssociations": ["Model 2"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-2.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F12" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F12</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-2.mechdb", "FileType": $$d2f7a6ca-5333-45f8-83e1-619138146fba, "DependentFiles": [], "ContainerAssociations": ["Model 2"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-2.mechdb", "ReferenceCount": 1}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Messages" Version="1.0">
+      <container-type valType="String">Project:Messages</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1485, "Input": 1485, "Output": 1485}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Parameters" Version="1.0">
+      <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
+      <static-id valType="String">Parameters</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <maxUpdateOrder valType="Double">1</maxUpdateOrder>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7239, "Input": 7240, "Output": 1488}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Parameters/DesignPoint:0" Version="1.0">
+        <class-type valType="String">DesignPoint</class-type>
+        <object-name valType="String">0</object-name>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {}, "Parameters": {"$$ae3a08ba-2113-471e-b6d0-4b4a14065b30": "25 [mm]", "$$fbf135c3-94eb-42ea-8a2d-3391cf07edef": "125 [mm]", "$$b7d03c3a-9b3f-497c-bdbd-57a7194260d8": "75 [mm]"}, "ParameterErrors": {}, "CurrentValues": {"$$ae3a08ba-2113-471e-b6d0-4b4a14065b30": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "25 [mm]"}, "$$fbf135c3-94eb-42ea-8a2d-3391cf07edef": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "125 [mm]"}, "$$b7d03c3a-9b3f-497c-bdbd-57a7194260d8": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "75 [mm]"}, "$$be11bb21-baea-4064-957f-e7ac155252cf": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "13442520.566477995 [Pa]"}, "$$fd3f8385-384c-4f0c-88b9-c304cd144f29": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1615.6836155888486 [Hz]"}, "$$3d81f7d3-3f33-4067-8bc5-e13675a84243": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "341.03753662109375 [C]"}}, "ParameterStatus": {"$$ae3a08ba-2113-471e-b6d0-4b4a14065b30": "UpToDate", "$$fbf135c3-94eb-42ea-8a2d-3391cf07edef": "UpToDate", "$$b7d03c3a-9b3f-497c-bdbd-57a7194260d8": "UpToDate", "$$be11bb21-baea-4064-957f-e7ac155252cf": "UpToDate", "$$fd3f8385-384c-4f0c-88b9-c304cd144f29": "UpToDate", "$$3d81f7d3-3f33-4067-8bc5-e13675a84243": "UpToDate"}, "Note": None, "IsUpToDate": True, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
+      </Object>
+      <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
+        <class-type valType="String">DesignPointReportSetting</class-type>
+        <object-name valType="String">Design Points Report Setting</object-name>
+        <member-data valType="String">{"DisplayText": "Design Points Report Setting", "DesignPointReportImage": "None"}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P1" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P1</object-name>
+        <member-data valType="String">{"DisplayText": "rotor_thickness", "PersistedNamedValueEntityReference": None, "Expression": "25 [mm]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "25 [mm]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P2" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P2</object-name>
+        <member-data valType="String">{"DisplayText": "rotor_OD", "PersistedNamedValueEntityReference": None, "Expression": "125 [mm]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "125 [mm]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P3" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P3</object-name>
+        <member-data valType="String">{"DisplayText": "rotor_ID", "PersistedNamedValueEntityReference": None, "Expression": "75 [mm]", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "75 [mm]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P4" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P4</object-name>
+        <member-data valType="String">{"DisplayText": "Equivalent Stress Maximum", "PersistedNamedValueEntityReference": None, "Expression": None, "Usage": "DirectOutput", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "13442520.566477995 [Pa]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "0 [Pa]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Stress"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P5" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P5</object-name>
+        <member-data valType="String">{"DisplayText": "Total Deformation Reported Frequency", "PersistedNamedValueEntityReference": None, "Expression": None, "Usage": "DirectOutput", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1615.6836155888486 [Hz]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "0 [Hz]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Frequency"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P6" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P6</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature Maximum", "PersistedNamedValueEntityReference": None, "Expression": None, "Usage": "DirectOutput", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "341.03753662109375 [C]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "0 [C]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Temperature"}}</member-data>
+      </Object>
+      <ParameterToPropertyMap>
+        <Parameter Name="/Parameters/Parameter:P1">
+          <ParameterReference valType="String">ae3a08ba-2113-471e-b6d0-4b4a14065b30</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">9c3da860-3666-4837-855c-9f67b26670fe</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P2">
+          <ParameterReference valType="String">fbf135c3-94eb-42ea-8a2d-3391cf07edef</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">0b46d376-450c-46d7-a32c-2ace6d48dbab</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P3">
+          <ParameterReference valType="String">b7d03c3a-9b3f-497c-bdbd-57a7194260d8</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">ebbd6005-814d-4e12-819d-a66b34af79b6</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P4">
+          <ParameterReference valType="String">be11bb21-baea-4064-957f-e7ac155252cf</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">95acc1c5-618c-42c8-a184-caaa289619ba</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P5">
+          <ParameterReference valType="String">fd3f8385-384c-4f0c-88b9-c304cd144f29</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">5e0261fe-ce9e-400d-86d1-c101e2154e18</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P6">
+          <ParameterReference valType="String">3d81f7d3-3f33-4067-8bc5-e13675a84243</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">e6138945-a615-44f6-8d4c-3086434f9b6d</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+      </ParameterToPropertyMap>
+    </Container>
+    <Container Name="Schematic" Version="1.0">
+      <container-type valType="String">Ansys.ProjectSchematic.ProjectSchematicAddin:Default</container-type>
+      <static-id valType="String">Schematic</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7132, "Input": 7130, "Output": 1491}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Schematic/System:SYS" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS</object-name>
+        <member-data valType="String">{"DisplayText": "Static Structural", "Components": [$$0d1620fc-1cfd-4c21-ba74-b4b77ae9bf9f, $$db763117-3c76-463e-a0cc-190005d8c9ca, $$0bc474b1-976b-4e0b-8fac-951390bae385, $$0ef5e381-9855-476d-b6cf-a9b9883f3e9a, $$80db3f5e-acac-47ef-97f4-c6bfffeeaa9d, $$a5fbe5a5-93ef-4496-bf86-642d01611b71], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$0bc474b1-976b-4e0b-8fac-951390bae385, $$0ef5e381-9855-476d-b6cf-a9b9883f3e9a], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Structural", "AnalysisType": "Static", "SolverType": "ANSYS", "SolverTypeDisplayString": "Mechanical APDL", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Static Structural", "SystemName": "Static Structural (ANSYS)", "IsCreated": "True", "AlreadyInSystem": "Yes", "VOLATILE:SystemName": "SYS"}, "SystemType": "Static Structural (ANSYS)", "HeaderText": "Static Structural", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_ststructAN", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$3c31adb7-7f37-4c93-b18e-3f088b2eda3c, "Notes": None, "LayoutChildren": [$$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, $$1cade4c6-b924-4cf2-846b-36f05d3bb860], "LayoutIndex": 1}</member-data>
+      </Object>
+      <Object Name="/Schematic/System:SYS 1" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS 1</object-name>
+        <member-data valType="String">{"DisplayText": "Modal", "Components": [$$d97cd8b6-c22e-44a7-b105-49d7dce4754b, $$3458d738-f3b6-4db1-a128-88e5f9eaed40, $$7e3d9025-bd06-4f88-8c42-36956fdeee30, $$65352f88-c463-48c5-8ab9-15e2257d0f78, $$bb369b93-05f9-4b45-a8ed-dfd9bff03a7f, $$50646224-8ed7-4925-9f92-9be9d8bb290b], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$7e3d9025-bd06-4f88-8c42-36956fdeee30, $$65352f88-c463-48c5-8ab9-15e2257d0f78], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Structural", "AnalysisType": "Modal", "SolverType": "ANSYS", "SolverTypeDisplayString": "Mechanical APDL", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Modal", "SystemName": "Modal (ANSYS)", "AlreadyInSystem": "Yes", "VOLATILE:SystemName": "SYS 1"}, "SystemType": "Modal (ANSYS)", "HeaderText": "Modal", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-1", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_modalAN", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$bf24a3d6-dd53-4989-ab8a-04dd16bd899a, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+      </Object>
+      <Object Name="/Schematic/System:SYS 2" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS 2</object-name>
+        <member-data valType="String">{"DisplayText": "Transient Thermal", "Components": [$$12959b17-8446-4d67-8d91-d8a4ad8bfeb9, $$d96a77d5-c686-4a69-9c9b-6e70e2defc99, $$1010c4fe-3fe8-4e35-b9c1-0613aaa3b7c0, $$28f83084-5630-43f9-820d-ff00d5c7742f, $$34df7c81-9ab0-4ea7-974b-fbc9f34c704d, $$b36259ad-6db6-472e-944e-db077aa7c7c0], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$1010c4fe-3fe8-4e35-b9c1-0613aaa3b7c0, $$28f83084-5630-43f9-820d-ff00d5c7742f], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Thermal", "AnalysisType": "Transient", "SolverType": "ANSYS", "SolverTypeDisplayString": "Mechanical APDL", "PhysicsTypeDisplayString": "Thermal", "AnalysisTypeDisplayString": "Transient", "SystemName": "Transient Thermal (ANSYS)", "AlreadyInSystem": "Yes", "VOLATILE:SystemName": "SYS 2"}, "SystemType": "Transient Thermal (ANSYS)", "HeaderText": "Transient Thermal", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-2", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_transthermalAN", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$4dd08dd3-3a51-405c-8304-232f414953bd, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+      </Object>
+      <Object Name="/Schematic/SchematicSettings:Schematic Settings" Version="1.0">
+        <class-type valType="String">SchematicSettings</class-type>
+        <object-name valType="String">Schematic Settings</object-name>
+        <member-data valType="String">{"DisplayText": "Schematic Settings", "WireBundling": False, "ShowSystemCoordinates": True, "Notes": None, "SuspendCollectingRSMResult": False}</member-data>
+      </Object>
+      <Object Name="/Schematic/DesignPointSolveSettings:Design Points Update Settings" Version="1.0">
+        <class-type valType="String">DesignPointSolveSettings</class-type>
+        <object-name valType="String">Design Points Update Settings</object-name>
+        <member-data valType="String">{"DisplayText": "Design Points Update Settings", "UpdateOption": "Foreground", "RsmUserString": None, "ConfiguredQueue": {"OptionIcons": None, "OptionLabels": "Local", "Options": "Local", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": "Local"}, "RsmJobName": "Workbench", "UpdateMethod": "Foreground", "UpdateOrder": "UpdateFromCurrentDesignPoint", "PreRSMUpdate": "Geometry", "PartialUpdate": "None", "RetainPartialUpdate": "None", "ComponentExecutionMode": "Serial", "NumberOfCoresPerJob": 2, "RetainFailedDesignPoints": False, "DesignPointRetainedOrExportedUpdate": "Parameters", "DesignPointUpdateTimeout": 0, "JobStatusCheckIntervalInSeconds": 20, "NumberOfJobsToBeCreated": 1, "NumberOfTasksToBeCreated": 1}</member-data>
+      </Object>
+      <Object Name="/Schematic/Bookkeeper:Schematic bookkeeper" Version="1.0">
+        <class-type valType="String">Bookkeeper</class-type>
+        <object-name valType="String">Schematic bookkeeper</object-name>
+        <member-data valType="String">{"DisplayText": "Schematic bookkeeper", "UpfrontLicenseCheckoutSelection": []}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:FSI: Fluid Flow (CFX) -&gt; Static Structural" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">FSI: Fluid Flow (CFX) -&gt; Static Structural</object-name>
+        <member-data valType="String">{"DisplayText": "FSI: Fluid Flow (CFX) -&gt; Static Structural", "SystemTemplates": [$$b413cba7-fb23-4dd3-ba7b-fa5b9c94dbce, $$3c31adb7-7f37-4c93-b18e-3f088b2eda3c], "SystemNames": ["Fluid Flow (CFX)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Fluid Flow (CFX):Geometry", "Static Structural (ANSYS):Geometry"], ["Connect", "Fluid Flow (CFX):Solution:CFXTransferResultsTemplate", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Fluid Flow (CFX)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Fluid Flow (CFX)": ["Static Structural (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:FSI: Fluid Flow (FLUENT) -&gt; Static Structural" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">FSI: Fluid Flow (FLUENT) -&gt; Static Structural</object-name>
+        <member-data valType="String">{"DisplayText": "FSI: Fluid Flow (FLUENT) -&gt; Static Structural", "SystemTemplates": [$$cd2a05a1-b5ac-445f-adef-158a55e6f73e, $$3c31adb7-7f37-4c93-b18e-3f088b2eda3c], "SystemNames": ["Fluid Flow (FLUENT)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Fluid Flow (FLUENT):Geometry", "Static Structural (ANSYS):Geometry"], ["Connect", "Fluid Flow (FLUENT):Solution", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Fluid Flow (FLUENT)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Fluid Flow (FLUENT)": ["Static Structural (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Thermal-Stress" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Thermal-Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal-Stress", "SystemTemplates": [$$1426e9df-ea6b-422d-9745-a2033f75b923, $$3c31adb7-7f37-4c93-b18e-3f088b2eda3c], "SystemNames": ["Steady-State Thermal (ANSYS)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Steady-State Thermal (ANSYS):Engineering Data", "Static Structural (ANSYS):Engineering Data"], ["Share", "Steady-State Thermal (ANSYS):Geometry", "Static Structural (ANSYS):Geometry"], ["Share", "Steady-State Thermal (ANSYS):Model", "Static Structural (ANSYS):Model"], ["Connect", "Steady-State Thermal (ANSYS):Solution", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Steady-State Thermal (ANSYS)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Steady-State Thermal (ANSYS)": ["Static Structural (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Pre-Stress Modal" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Pre-Stress Modal</object-name>
+        <member-data valType="String">{"DisplayText": "Pre-Stress Modal", "SystemTemplates": [$$3c31adb7-7f37-4c93-b18e-3f088b2eda3c, $$bf24a3d6-dd53-4989-ab8a-04dd16bd899a], "SystemNames": ["Static Structural (ANSYS)", "Modal (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Static Structural (ANSYS):Engineering Data", "Modal (ANSYS):Engineering Data"], ["Share", "Static Structural (ANSYS):Geometry", "Modal (ANSYS):Geometry"], ["Share", "Static Structural (ANSYS):Model", "Modal (ANSYS):Model"], ["Connect", "Static Structural (ANSYS):Solution", "Modal (ANSYS):Setup"]], "LayoutIndices": {"Static Structural (ANSYS)": 1, "Modal (ANSYS)": 0}, "LayoutChildren": {"Static Structural (ANSYS)": ["Modal (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Random Vibration" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Random Vibration</object-name>
+        <member-data valType="String">{"DisplayText": "Random Vibration", "SystemTemplates": [$$bf24a3d6-dd53-4989-ab8a-04dd16bd899a, $$9d10750c-9e3a-46ca-87a6-be16f4895556], "SystemNames": ["Modal (ANSYS)", "Random Vibration (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Modal (ANSYS):Engineering Data", "Random Vibration (ANSYS):Engineering Data"], ["Share", "Modal (ANSYS):Geometry", "Random Vibration (ANSYS):Geometry"], ["Share", "Modal (ANSYS):Model", "Random Vibration (ANSYS):Model"], ["Connect", "Modal (ANSYS):Solution", "Random Vibration (ANSYS):Setup"]], "LayoutIndices": {"Modal (ANSYS)": 1, "Random Vibration (ANSYS)": 0}, "LayoutChildren": {"Modal (ANSYS)": ["Random Vibration (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Response Spectrum" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Response Spectrum</object-name>
+        <member-data valType="String">{"DisplayText": "Response Spectrum", "SystemTemplates": [$$bf24a3d6-dd53-4989-ab8a-04dd16bd899a, $$870ac12f-3ca2-4bb7-989a-d71ef03933c3], "SystemNames": ["Modal (ANSYS)", "Response Spectrum (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Modal (ANSYS):Engineering Data", "Response Spectrum (ANSYS):Engineering Data"], ["Share", "Modal (ANSYS):Geometry", "Response Spectrum (ANSYS):Geometry"], ["Share", "Modal (ANSYS):Model", "Response Spectrum (ANSYS):Model"], ["Connect", "Modal (ANSYS):Solution", "Response Spectrum (ANSYS):Setup"]], "LayoutIndices": {"Modal (ANSYS)": 1, "Response Spectrum (ANSYS)": 0}, "LayoutChildren": {"Modal (ANSYS)": ["Response Spectrum (ANSYS)"]}}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Engineering Data" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Engineering Data</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "ImageName": "EngDataComponent16x16", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Engineering Data", "_overwrittenUpdatable": None, "Template": $$ad56f15a-8a50-4218-83c9-75bd14501ddc, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ImageName": "cad_designmodeler", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Geometry", "_overwrittenUpdatable": None, "Template": $$57e5a736-43a1-48e4-9a93-4edb49ab42fc, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Model" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Model</object-name>
+        <member-data valType="String">{"DisplayText": "Model", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Model", "_overwrittenUpdatable": None, "Template": $$6ebff789-99b6-458a-ae20-3a8ef0a6503f, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": [[{"DataType": "EngineeringData", "Component": $$0d1620fc-1cfd-4c21-ba74-b4b77ae9bf9f, "Transfer": None}], [{"DataType": "Geometry", "Component": $$db763117-3c76-463e-a0cc-190005d8c9ca, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Setup" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Setup</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "ImageName": "setup", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Setup", "_overwrittenUpdatable": None, "Template": $$1653b068-3186-4768-9105-1dfdb1c2c6da, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": [[{"DataType": "MechanicalModel", "Component": $$0bc474b1-976b-4e0b-8fac-951390bae385, "Transfer": None}], [{"DataType": "MechanicalMesh", "Component": $$0bc474b1-976b-4e0b-8fac-951390bae385, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Solution" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Solution</object-name>
+        <member-data valType="String">{"DisplayText": "Solution", "ImageName": "Mechanical_Solution", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Solution", "_overwrittenUpdatable": None, "Template": $$e76399fb-7ed4-407b-a409-410d6e6575b0, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": [[{"DataType": "SimulationSetup", "Component": $$0ef5e381-9855-476d-b6cf-a9b9883f3e9a, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Results" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Results</object-name>
+        <member-data valType="String">{"DisplayText": "Results", "ImageName": "results", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Results", "_overwrittenUpdatable": None, "Template": $$cb3c9c16-b961-457c-ad94-eb382883f9c1, "InSystem": $$7667508b-7b39-4ec6-a72f-3640035b9786, "MasterSources": {"Sources": [[{"DataType": "SimulationSolution", "Component": $$80db3f5e-acac-47ef-97f4-c6bfffeeaa9d, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Engineering Data 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Engineering Data 1</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "ImageName": "EngDataComponent16x16", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$0d1620fc-1cfd-4c21-ba74-b4b77ae9bf9f, "DataSharing": "Full", "DataContainer": "Engineering Data", "_overwrittenUpdatable": None, "Template": $$ad56f15a-8a50-4218-83c9-75bd14501ddc, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry 1</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ImageName": "cad_designmodeler", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$db763117-3c76-463e-a0cc-190005d8c9ca, "DataSharing": "Full", "DataContainer": "Geometry", "_overwrittenUpdatable": None, "Template": $$57e5a736-43a1-48e4-9a93-4edb49ab42fc, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Model 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Model 1</object-name>
+        <member-data valType="String">{"DisplayText": "Model", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Model 1", "_overwrittenUpdatable": None, "Template": $$6ebff789-99b6-458a-ae20-3a8ef0a6503f, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": {"Sources": [[{"DataType": "EngineeringData", "Component": $$d97cd8b6-c22e-44a7-b105-49d7dce4754b, "Transfer": None}], [{"DataType": "Geometry", "Component": $$3458d738-f3b6-4db1-a128-88e5f9eaed40, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Setup 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Setup 1</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "ImageName": "setup", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Setup 1", "_overwrittenUpdatable": None, "Template": $$a1ecfe06-02aa-420b-af90-6e32f6c1cc74, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": {"Sources": [[{"DataType": "MechanicalModel", "Component": $$7e3d9025-bd06-4f88-8c42-36956fdeee30, "Transfer": None}], [{"DataType": "MechanicalMesh", "Component": $$7e3d9025-bd06-4f88-8c42-36956fdeee30, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Solution 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Solution 1</object-name>
+        <member-data valType="String">{"DisplayText": "Solution", "ImageName": "Mechanical_Solution", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Solution 1", "_overwrittenUpdatable": None, "Template": $$91d30b62-b741-4000-92bf-a544d264b688, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": {"Sources": [[{"DataType": "SimulationSetup", "Component": $$65352f88-c463-48c5-8ab9-15e2257d0f78, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Results 1" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Results 1</object-name>
+        <member-data valType="String">{"DisplayText": "Results", "ImageName": "results", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Results 1", "_overwrittenUpdatable": None, "Template": $$f07bac59-8d09-471e-841f-8d4449bf1b65, "InSystem": $$8ca05f36-5b5e-4fc5-b85b-f61db3d73e7e, "MasterSources": {"Sources": [[{"DataType": "SimulationSolution", "Component": $$bb369b93-05f9-4b45-a8ed-dfd9bff03a7f, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Engineering Data 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Engineering Data 2</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "ImageName": "EngDataComponent16x16", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$0d1620fc-1cfd-4c21-ba74-b4b77ae9bf9f, "DataSharing": "Full", "DataContainer": "Engineering Data", "_overwrittenUpdatable": None, "Template": $$ad56f15a-8a50-4218-83c9-75bd14501ddc, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry 2</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ImageName": "cad_designmodeler", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$db763117-3c76-463e-a0cc-190005d8c9ca, "DataSharing": "Full", "DataContainer": "Geometry", "_overwrittenUpdatable": None, "Template": $$57e5a736-43a1-48e4-9a93-4edb49ab42fc, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Model 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Model 2</object-name>
+        <member-data valType="String">{"DisplayText": "Model", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Model 2", "_overwrittenUpdatable": None, "Template": $$6ebff789-99b6-458a-ae20-3a8ef0a6503f, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": {"Sources": [[{"DataType": "EngineeringData", "Component": $$12959b17-8446-4d67-8d91-d8a4ad8bfeb9, "Transfer": None}], [{"DataType": "Geometry", "Component": $$d96a77d5-c686-4a69-9c9b-6e70e2defc99, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Setup 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Setup 2</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "ImageName": "setup", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Setup 2", "_overwrittenUpdatable": None, "Template": $$419bace5-7486-422e-906f-1a0b4a05812b, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": {"Sources": [[{"DataType": "MechanicalModel", "Component": $$1010c4fe-3fe8-4e35-b9c1-0613aaa3b7c0, "Transfer": None}], [{"DataType": "MechanicalMesh", "Component": $$1010c4fe-3fe8-4e35-b9c1-0613aaa3b7c0, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Solution 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Solution 2</object-name>
+        <member-data valType="String">{"DisplayText": "Solution", "ImageName": "Mechanical_Solution", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Solution 2", "_overwrittenUpdatable": None, "Template": $$0a1bbc3f-6cae-45b3-8634-973291213454, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": {"Sources": [[{"DataType": "SimulationSetup", "Component": $$28f83084-5630-43f9-820d-ff00d5c7742f, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Results 2" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Results 2</object-name>
+        <member-data valType="String">{"DisplayText": "Results", "ImageName": "results", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Results 2", "_overwrittenUpdatable": None, "Template": $$1075fd0c-7e41-427f-9e6b-65bae8c56723, "InSystem": $$1cade4c6-b924-4cf2-846b-36f05d3bb860, "MasterSources": {"Sources": [[{"DataType": "SimulationSolution", "Component": $$34df7c81-9ab0-4ea7-974b-fbc9f34c704d, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "ANSYS", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="ReportDataContainer" Version="1.0">
+      <container-type valType="String">Ansys.ProjectReporting.Addin:ReportDataContainer</container-type>
+      <static-id valType="String">ReportDataContainer</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1836, "Input": 1827, "Output": 1827}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Graphics" Version="1.0">
+      <container-type valType="String">Ansys.Graphics.GraphicsAddin:graphics</container-type>
+      <static-id valType="String">Graphics</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7020, "Input": 1837, "Output": 1837}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Units" Version="1.0">
+      <container-type valType="String">Ansys.Units.Commands.Addin:Units</container-type>
+      <static-id valType="String">Units</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1838, "Input": 5917, "Output": 1838}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Units/UnitSystemProjectSettings:UnitSystemProjectSettings" Version="1.0">
+        <class-type valType="String">UnitSystemProjectSettings</class-type>
+        <object-name valType="String">UnitSystemProjectSettings</object-name>
+        <member-data valType="String">{"DisplayText": "UnitSystemProjectSettings", "DataContainerUnitSystemRegistry": {"Geometry": "DesignModelerUnitSystem_mm"}}</member-data>
+      </Object>
+      <Object Name="/Units/UnitSystem:UnitSys" Version="1.0">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys</object-name>
+        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
+      </Object>
+      <Object Name="/Units/UnitSystem:UnitSys 1" Version="1.0">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys 1</object-name>
+        <member-data valType="String">{"DisplayText": "DesignModeler Unit System (mm, degree)", "ChangedQuantityUnits": {"Density Derivative wrt Temperature": "kg mm^-3 C^-1", "Energy Source Coefficient": "W mm^-3 C^-1", "Heat Transfer Coefficient": "W mm^-2 C^-1", "Molar Entropy": "J mol^-1 C^-1", "Piezoelectric Strain Coefficient": "A s N^-1", "Piezoelectric Stress Coefficient": "A s m^-2", "Pressure Derivative wrt Temperature": "Pa C^-1", "Seebeck Coefficient": "V C^-1", "Specific Entropy": "J kg^-1 C^-1", "Specific Heat Capacity": "J kg^-1 C^-1", "Stress Per Temperature": "Pa C^-1", "Temperature": "C", "Temperature Difference": "C", "Temperature Gradient": "C mm^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Thermal Capacitance": "J C^-1", "Thermal Conductance": "W C^-1", "Thermal Conductivity": "W mm^-1 C^-1", "Thermal Contact Resistance": "W^-1 mm^2 C", "Thermal Expansivity": "C^-1", "Angle": "degree", "Inverse Angle": "degree^-1", "Length": "mm", "Acceleration": "mm s^-2", "Area": "mm^2", "Current Transfer Coefficient": "A mm^-2 V^-1", "Density": "kg mm^-3", "Density Derivative": "mm^-2 s^2", "Electric Charge Density": "A s mm^-3", "Electrical Conductivity": "S mm^-1", "Electric Current Density": "A mm^-2", "Electric Current Source": "A mm^-3", "Electric Field": "V mm^-1", "Electrical Resistivity": "ohm mm", "Energy Source": "W mm^-3", "Enthalpy Variance": "mm^4 s^-4", "Epsilon": "mm^2 s^-3", "Epsilon Flux": "W mm^-2 s^-1", "Epsilon Flux Coefficient": "kg mm^-2 s^-2", "Epsilon Source": "W mm^-3 s^-1", "Epsilon Source Coefficient": "kg mm^-3 s^-2", "Flame Surface Density Source": "mm^-1 s^-1", "Fracture Energy": "J mm^-2", "Heat Flux in": "W mm^-2", "Interphase Transfer Coefficient": "kg mm^-2 s^-1", "Inverse Area": "mm^-2", "Inverse Length": "mm^-1", "k": "mm^2 s^-2", "k Flux": "W mm^-2", "k Flux Coefficient": "kg mm^-2 s^-1", "k Source": "W mm^-3", "k Source Coefficient": "kg mm^-3 s^-1", "Kinematic Diffusivity": "mm^2 s^-1", "Magnetic Field": "A mm^-1", "Magnetic Field Intensity": "A mm^-1", "Magnetic Potential": "T mm", "Magnetic Permeability": "H mm^-1", "Mass Flux": "kg s^-1 mm^-2", "Mass Flux Coefficient": "kg s^-1 mm^-2", "Mass Per Length": "kg mm^-1", "Mass Per Area": "kg mm^-2", "Mass Source": "kg s^-1 mm^-3", "Mass Source Coefficient": "kg s^-1 mm^-3", "Mass Source Rate Per Area": "kg s^-2 mm^-2", "Mass Source Rate Per Length": "kg s^-2 mm^-1", "Mass Source Rate Per Volume": "kg s^-2 mm^-3", "Material Impedance": "kg mm^-2 s^-1", "Molar Concentration": "mol mm^-3", "Molar Concentration Rate": "mol mm^-3 s^-1", "Molar Volume": "mm^3 mol^-1", "Moment": "N mm", "Momentum Source": "kg mm^-2 s^-2", "Momentum Source Lin Coeff": "kg mm^-3 s^-1", "Momentum Source Quad Coeff": "kg mm^-4", "Normalized Value": "mm mm^-1", "Number Source": "mm^-3 s^-1", "Omega Source": "kg mm^-3 s^-2", "Shock Velocity": "s mm^-1", "Soot Cross Coefficient": "mm^3 mol^-1 s^-1", "Specific Flame Surface Density": "mm^2 kg^-1", "Specific Volume": "kg^-1 mm^3", "Surface Tension": "N mm^-1", "Temperature Variance Source": "kg mm^-3 s^-1 C^2", "Torque": "N mm", "Total Radiative Intensity": "W mm^-2 sr^-1", "Turbulent Heat Flux": "mm^3 s^-3", "Velocity": "mm s^-1", "Volume": "mm^3", "Concentration": "mm^-3", "Mass Concentration": "kg mm^-3", "Mass Concentration Rate": "kg mm^-3 s^-1", "Volumetric Flow": "mm^3 s^-1", "Volumetric Flow in": "mm^3 s^-1", "Volumetric": "kg mm^-3", "Electric Conductance Per Unit Area": "S mm^-2", "Force Intensity": "N mm^-1", "Heat Flux": "W mm^-2", "Heat Generation": "W mm^-3", "Moment of Inertia of Area": "mm^2 mm^2", "Moment of Inertia of Mass": "kg mm^2", "PSD Acceleration": "mm^2 s^-4 Hz^-1", "PSD Displacement": "mm^2 Hz^-1", "PSD Moment": "N^2 mm^2 Hz^-1", "PSD Strain": "mm^2 mm^-2 Hz^-1", "PSD Velocity": "mm^2 s^-2 Hz^-1", "Section Modulus": "mm^3", "Specific Weight": "N mm^-3", "Stiffness": "N mm^-1", "Strain": "mm mm^-1", "Translational Damping": "N s mm^-1", "Warping Factor": "mm^6", "Contact Resistance": "mm^2 s kg^-1", "Electrical Contact Resistance": "S^-1 mm^2", "Mass Flow Rate Per Area": "kg s^-1 mm^-2", "Mass Flow Rate Per Length": "kg s^-1 mm^-1", "Mass Flow Rate Per Volume": "kg s^-1 mm^-3"}, "UnitSystemName": "DesignModelerUnitSystem_mm", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": False, "IsDefault": False}</member-data>
+      </Object>
+    </Container>
+    <Container Name="DpdbContainer" Version="1.0">
+      <container-type valType="String">Ansys.Dpdb.DpdbAddin:DpdbContainer</container-type>
+      <static-id valType="String">DpdbContainer</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1846, "Input": 1841, "Output": 1841}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/DpdbContainer/DpdbSettings:Dpdb Settings Entity" Version="1.0">
+        <class-type valType="String">DpdbSettings</class-type>
+        <object-name valType="String">Dpdb Settings Entity</object-name>
+        <member-data valType="String">{"DisplayText": "Dpdb Settings Entity", "ServerUrl": "https://localhost/dcs", "ServerUserName": "dcadmin", "ServerPassword": "dcadmin", "DatabaseName": None, "StartLocalEvaluatorOnUpdate": True, "ExecutionTime": 300, "UpdateDesignPointInSteps": False}</member-data>
+      </Object>
+    </Container>
+  </Containers>
+</Storage>
