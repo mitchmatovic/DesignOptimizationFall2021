@@ -1,0 +1,71 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+template1 = GetTemplate(TemplateName="Response Surface")
+system2 = template1.CreateSystem()
+designofExperiment1 = system2.GetContainer(ComponentName="Design of Experiment")
+dOEModel1 = designofExperiment1.GetModel()
+cCDMethod1 = dOEModel1.Method
+cCDMethod1.CCDType = "CCDTYPE_FACE_CENT"
+dOEModel1.MethodName = "ANSYS_OSFD"
+oSFDMethod1 = dOEModel1.Method
+oSFDMethod1.SampType = "SFD_USER"
+oSFDMethod1.NumSamp = 20
+inputParameter1 = dOEModel1.GetParameter(Name="P2")
+inputParameter1.LowerBound = 122
+inputParameter1.UpperBound = 146
+inputParameter2 = dOEModel1.GetParameter(Name="P3")
+inputParameter2.UpperBound = 90
+inputParameter2.LowerBound = 66
+designPointsTable1 = dOEModel1.PreviewDesignPoints()
+designofExperimentComponent1 = system2.GetComponent(Name="Design of Experiment")
+designofExperimentComponent1.Update(AllDependencies=True)
+responseSurface1 = system2.GetContainer(ComponentName="Response Surface")
+responseSurfaceModel1 = responseSurface1.GetModel()
+responseSurfaceModel1.FittingType = "FITTINGTYPE_SPARSEGRID"
+responseSurfaceModel1.FittingType = "FITTINGTYPE_KRIGING"
+responseSurfaceModel1.FittingType = "FITTINGTYPE_SPARSEGRID"
+responseSurfaceModel1.GenerateVerificationPoints = True
+responseSurfaceModel1.NumberVerificationPoints = 5
+responseSurfaceComponent1 = system2.GetComponent(Name="Response Surface")
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_KRIGING"
+responseSurfaceComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
+chart1 = responseSurfaceModel1.GetChart(Name="LocalSensitivityCurves")
+outputParameter1 = responseSurfaceModel1.GetParameter(Name="P5")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+outputParameter2 = responseSurfaceModel1.GetParameter(Name="P6")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+designPoint2 = designPoint1.Duplicate()
+designPoint2.SetEntityProperties(Properties=Set(Retained=False, Exported=False, UpdateOrder=0, Note="Created from Response Surface"))
+parameter1 = Parameters.GetParameter(Name="P1")
+parameter2 = Parameters.GetParameter(Name="P2")
+parameter3 = Parameters.GetParameter(Name="P3")
+designPoint2.SetParameterExpressions(ParameterExpressions={parameter1: "25 [mm]", parameter2: "134 [mm]", parameter3: "78 [mm]"})
+designPoint2.CopyParameterExpressions(ToDesignPoint=designPoint1)
+geometry1.Edit()
+geometry1.Refresh()
+responsePoint1 = responseSurfaceModel1.GetResponsePoint(Name="ResponsePoint")
+inputParameter3 = responseSurfaceModel1.GetParameter(Name="P1")
+responsePoint1.SetParameter(
+    Parameter=inputParameter3,
+    Expression="25.85 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter3,
+    Expression="25 [mm]")
+responseSurfaceModel1.ExportResponseSurface(
+    FilePath="C:/Users/mmmatovi/Downloads/asdf",
+    FileFormat="FMU",
+    Version=2)
+Save(Overwrite=True)
